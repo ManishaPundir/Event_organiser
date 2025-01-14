@@ -1,0 +1,173 @@
+/* Reset and General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container Adjustments */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.row > [class*="col-"] {
+    padding: 15px;
+}
+
+/* About Section */
+#about-section {
+    padding: 80px 15px;
+    background-color: #f8f9fa;
+}
+
+.about-text {
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    text-align: left;
+}
+
+.about-text:last-child {
+    border-right: none;
+}
+
+.about-text h1 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.about-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Team Section */
+#team-section {
+    padding: 50px 15px;
+    background: #5385c1;
+    color: #fff;
+}
+
+.team-top-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-top-header h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.team-top-header p {
+    font-size: 16px;
+}
+
+.team-member-id {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.team-member-id img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member-id h1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.team-member-id p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Recent Section */
+#recent-section {
+    padding: 50px 15px;
+    background: #fff;
+}
+
+.recent-text {
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.recent-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.recent-text h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.recent-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.recent-text button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Utilities */
+.text-center {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

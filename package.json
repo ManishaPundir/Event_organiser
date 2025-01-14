@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.9.4"
+  },
+  "name": "mernbackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+ "test": "echo \"Error: no test specified\" && exit 1",
+ "dev": "nodemon src/app.js -e js,hbs"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express":"^4.17.1",
+     "hbs":"^4.1.1",
+     "mongoose": "^5.10.15"
+  }
+}
